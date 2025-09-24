@@ -1,4 +1,4 @@
-const { connectDB ,client} = require("./db");
+const { connectDB ,client} = require("./mongo-db");
 
 connectDB()
 const db = client.db("Alok");
